@@ -15,24 +15,80 @@ function App() {
     equipo: "Front End",
     foto: "https://media.licdn.com/dms/image/D4E03AQEJRAviNDricw/profile-displayphoto-shrink_800_800/0/1669511869760?e=1689811200&v=beta&t=XxmkqmBRJQIoiS_7Zj0PzTU4Ynm4AfhZnfRCbAWVQgY",
     nombre: "Deyvit Acosta Coronado",
-    puesto: "Ingeniero De Sistemas",
+    puesto: "Ingeniero De Sistemas y desarrollador",
     favorito: true
   },
   {
     id: uuid(),
-    equipo: "UX y Diseño",
-    foto: "https://github.com/JeanmarieAluraLatam.png",
-    nombre: "Jeanmarie Quijada",
-    puesto: "Desarrolladora de Software",
+    equipo: "Front End",
+    foto: " https://github.com/christianpva.png",
+    nombre: "Christian Velasco",
+    puesto: "Head de Alura e instructor",
     favorito: false
   },
+  {
+    id: uuid(),
+    equipo: "Front End",
+    foto: " https://github.com/genesysaluralatam.png",
+    nombre: "Genesys Rondón",
+    puesto: "Desarrolladora de software e instructora",
+    favorito: false
+  },
+  {
+  id: uuid(),
+  equipo: "Programación",
+  foto: "https://media.licdn.com/dms/image/D4E03AQEJRAviNDricw/profile-displayphoto-shrink_800_800/0/1669511869760?e=1689811200&v=beta&t=XxmkqmBRJQIoiS_7Zj0PzTU4Ynm4AfhZnfRCbAWVQgY",
+  nombre: "Deyvit Acosta Coronado",
+  puesto: "Ingeniero De Sistemas y desarrollador",
+  favorito: false
+},
+{
+  id: uuid(),
+  equipo: "Programación",
+  foto: " https://github.com/christianpva.png",
+  nombre: "Christian Velasco",
+  puesto: "Head de Alura e instructor",
+  favorito: true
+},
+{
+  id: uuid(),
+  equipo: "Programación",
+  foto: " https://github.com/genesysaluralatam.png",
+  nombre: "Genesys Rondón",
+  puesto: "Desarrolladora de software e instructora",
+  favorito: false
+},
+{    id: uuid(),
+  equipo: "Data Science",
+  foto: "https://media.licdn.com/dms/image/D4E03AQEJRAviNDricw/profile-displayphoto-shrink_800_800/0/1669511869760?e=1689811200&v=beta&t=XxmkqmBRJQIoiS_7Zj0PzTU4Ynm4AfhZnfRCbAWVQgY",
+  nombre: "Deyvit Acosta Coronado",
+  puesto: "Ingeniero De Sistemas y desarrollador",
+  favorito: false
+},
+{
+  id: uuid(),
+  equipo: "Data Science",
+  foto: " https://github.com/christianpva.png",
+  nombre: "Christian Velasco",
+  puesto: "Head de Alura e instructor",
+  favorito: false
+},
+{
+  id: uuid(),
+  equipo: "Data Science",
+  foto: " https://github.com/genesysaluralatam.png",
+  nombre: "Genesys Rondón",
+  puesto: "Desarrolladora de software e instructora",
+  favorito: true
+}
+  
 
   ])
 
   const [equipos, actualizarEquipos] = useState([
     {
       id: uuid(),
-      titulo: "Programacion",
+      titulo: "Programación",
       colorPrimario: "#57C278",
       colorSecundario: "#D9F7E9"
     },
